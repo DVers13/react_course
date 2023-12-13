@@ -1,0 +1,17 @@
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_row{
+    display: flex;
+    flex-direction: row;
+}

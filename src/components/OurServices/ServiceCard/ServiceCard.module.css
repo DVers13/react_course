@@ -1,0 +1,24 @@
+.card {
+    width: 350px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    color: #000;
+    font-family: "MulishBold";
+    font-size: 24px;
+}
+
+.subtitle {
+    color: #7D7987;
+    font-family: "MulishRegular";
+    font-size: 16px;
+}

@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    color: #000;
+    font-family: "MulishBold";
+    font-size: 48px;
+}
+
+.subtitle {
+    color: #7D7987;
+    font-family: "MulishRegular";
+    font-size: 21px;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	width: 200px;
+    gap: 10px;
+    height: 60px;
+	border-radius: 55px;
+    color: #458FF6;
+    font-family: "MulishRegular";
+    font-size: 18px;
+    border: 1.4px solid #458FF6;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+}

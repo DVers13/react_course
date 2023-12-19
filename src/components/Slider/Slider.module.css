@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 42pt;
     width: 1120px;
     height: 425px;
     border-radius: 24px;
@@ -12,6 +11,36 @@
 .container{
     height: 500px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #FFF;
+font-family: "MulishRegular";
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 133.333% */
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    width: 141px;
+height: 141px;
+flex-shrink: 0;
+border-radius: 50%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

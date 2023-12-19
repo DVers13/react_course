@@ -15,3 +15,50 @@
     display: flex;
     flex-direction: row;
 }
+
+.card_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+}
+
+.title {
+    color: #000;
+    font-family: "MulishBold";
+    font-size: 36px;
+}
+
+.subtitle {
+    color: #7D7987;
+    text-align: center;
+    font-family: "MulishRegular";
+    font-size: 18px;
+}
+
+.circle {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	width: 200px;
+    height: 60px;
+	border-radius: 55px;
+    color: #458FF6;
+    font-family: "MulishRegular";
+    font-size: 18px;
+    border: 1.4px solid #458FF6;
+}

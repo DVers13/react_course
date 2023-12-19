@@ -4,11 +4,13 @@
     display: flex;
     flex-direction: column;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    gap:33px;
 }
 
 .image {
     width: 100px;
     height: 100px;
+    margin-top: 54px;
 }
 
 .title {

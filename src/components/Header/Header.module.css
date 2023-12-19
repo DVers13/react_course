@@ -1,12 +1,25 @@
+.header{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1300px;
+}
+
 .header_row {
     display: flex;
     flex-direction: row;
+    gap: 127px;
 }
 
 .header_column {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 25px;
 }
 
 .header_title {
@@ -33,6 +46,7 @@
     font-family: "MulishRegular";
     font-size: 18px;
     border: none;
+    margin-top: 25px;
 }
 .header {
     margin-bottom: 30px;
